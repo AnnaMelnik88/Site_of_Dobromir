@@ -1,75 +1,83 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Site of Dobromir</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Сайт созданный для Добромирушки">
-  <meta name="keywords" content="html, css, javascript">
-  <meta name="author" content="Анна">
+        <meta http-equiv="content-type" charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="images" href="./images/">
 </head>
-<body class="page">
-  <header class="header centered-block">
-    <h1 class="centered-block"><a href="#" class="header__link" lang="en">Dobromir</a></h1>
+
+<!--body-->
+
+<body>
+
+<!--header-->
+
+
+  <header>
+
+    <div>
+    <h1>SITE OF DOBROMIR</h1>
+    </div>
+
   </header>
+
+  <!--menu-->
+
   <nav class="menu centered-block page__menu">
-    <a href="#beginner" class="menu__link menu__link_active">Games</a>
-    <a href="#frameworks" class="menu__link">Gadgets</a>
-    <a href="#practice" class="menu__link">Trips</a>
-    <a href="#practice" class="menu__link">Dreams</a>
+
+    <a href="#Games" class="menu__link menu__link_active games">Games</a>
+    <a href="#Gadgets" class="menu__link menu__link_active gadgets">Gadgets</a>
+    <a href="#Trips" class="menu__link menu__link_active trips">Trips</a>
+    <a href="#Dreams" class="menu__link menu__link_active dreams">Dreams</a>
+
   </nav>
-  <main class="content centered-block">
-    <section id="beginner">
+
+  <!--main-->
+
+
+  <main>
+
+ <!--Games-->
+
+    <section id="Games">
+      <div class="page">
       <h2 class="content__title">Games</h2>
-      <ul class="flex-row list flex-row_space_bottom">
-        <li class="project project_name_music-album project_width_l project_height_l">
-          <a href="#" class="project__overlay">Обложка музыкального альбома</a>
-        </li>
-        <li class="project project_name_design-principles project_width_l project_height_l">
-          <a href="#" class="project__overlay">Посадочная страница</a>
-        </li>
-      </ul>
+    </div>
     </section>
-    <section id="frameworks">
+
+<!--Gatgets-->
+
+    <section id="Gadgets">
+
       <h2 class="content__title">Gadgets</h2>
-      <div class="flex-row flex-row_reversed flex-row_space_bottom">
-        <div class="flex-column flex-column_reversed">
-          <div class="project project_width_l project_height_s">
-            <video class="project__video" src="https://code.s3.yandex.net/web-code/like.mp4" autoplay muted loop></video>
-          </div>
-          <ul class="flex-row list">
-            <li class="project project_name_slider project_width_m project_height_m">
-              <a href="#" class="project__overlay">Слайдер</a>
-            </li>
-            <li class="project project_name_reactive project_width_m project_height_m">
-              <a href="#" class="project__overlay">React, Vue, Angular</a>
-            </li>
-          </ul>
-        </div>
-        <div class="project project_width_l project_height_xl">
-          <video class="project__video" src="https://code.s3.yandex.net/web-code/procrastinate.mov" autoplay muted loop></video>
-        </div>
-      </div>
+            
     </section>
-    <section id="practice">
+
+<!--Gatgets-->
+
+    <section id="Trips">
+
       <h2 class="content__title">Trips</h2>
-      <ul class="flex-row list">
-        <li class="project project_name_how-to-study project_width_m project_height_m">
-          <a href="#" class="project__overlay">CSS-анимации</a>
-        </li>
-        <li class="project project_name_across-russia project_width_l project_height_m">
-          <a href="#" class="project__overlay">Адаптивная вёрстка</a>
-        </li>
-        <li class="project project_name_mesto project_width_m project_height_m">
-          <a href="#" class="project__overlay">Dreams</a>
-        </li>
-      </ul>
+      
     </section>
-  </main>
-  <footer class="footer centered-block">
-    <div class="footer__logo"></div>
+  
+
+<!--dreams-->
+
+<section id="Dreams">
+
+  <h2 class="content__title">Dreams</h2>
+  
+</section>
+</main>
+  <!--footer-->
+
+  <footer>
+
+    <div></div>
+
   </footer>
+
 </body>
 </html>
